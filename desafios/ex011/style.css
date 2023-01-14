@@ -2,9 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+    font-family: 'natural';
+    src: url('fontes/Natural\ Signature.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 header {
@@ -28,29 +36,35 @@ header > p {
 
 }
 
-section.luafora {
-    background-image: url('imagens/lua.jpg');
-    background-size:  100% 100%;
-    position: relative;
-    height: 96vh;
-    padding: 10px;
-    background-color: black;
-    background-attachment: scroll;
-    background-position: center center;
-
+section#img01 {
+    background-image: url('imagens/passarinho.jpg');
+    background-position: right center;
 }
 
-section.dentro {
-    background-image: url('imagens/lua.jpg');
-    background-size:  100% 100%;
-    position: relative;
-    background-attachment: scroll;
-    height: 200px;
-    width: 400px;
+
+section.dentrodaimagem {
+    background-image: url('imagens/background001.jpg');
+    background-size:  cover;
+    position: absolute;
+    background-attachment: fixed;
+    height: 500px;
+    width: 500px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+p.normal {
+    color: rgb(0, 0, 0);
+}
+
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 header  a {
@@ -65,9 +79,38 @@ header a:hover {
     text-decoration: underline;
 }
 
-section > p {
-    color: white;
+
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
 }
+
+section.imagem {
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+main p {
+    font-family: 'natural', Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bold;
+    text-shadow: 0PX 1PX 2PX rgba(0, 0, 0, 0.466);
+}
+
 
 footer {
     background-color: black;
