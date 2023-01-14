@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: 'Bebas Neue', 'cursive';
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', 'cursive';
+    padding-top: 80px; 
+    font-size: 6em;
+    font-weight: normal;
+}
+header > p {
+    padding-top: 30px;
+    
+
+}
+
+section.luafora {
+    background-image: url('imagens/lua.jpg');
+    background-size:  100% 100%;
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: black;
+    background-attachment: scroll;
+    background-position: center center;
+
+}
+
+section.dentro {
+    background-image: url('imagens/lua.jpg');
+    background-size:  100% 100%;
+    position: relative;
+    background-attachment: scroll;
+    height: 200px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+header  a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1px;
+
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+section > p {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
