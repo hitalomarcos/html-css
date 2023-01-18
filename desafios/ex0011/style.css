@@ -29,12 +29,20 @@ nav > a {
     font-weight: bold;
     transition-duration: .5s;
 }
-
-section#img01 {
-    background-image: url('imagens/1.jpg');
+nav a:hover {
+    background-color: lightcoral;
 }
 
 section.imagem {
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+    
+    background-color: grey;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#imagem {
     background-image: url('imagens/1.jpg');
-    background-size: 100% 100%;
 }
