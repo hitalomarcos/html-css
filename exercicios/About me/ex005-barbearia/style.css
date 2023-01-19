@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Storyboo';
+    src: url('imagens/fonte/Storyboo.TTF') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-storyboo: 'Storyboo', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    display: block;
+    background-image: linear-gradient(to bottom, #4D4D4D, #999999);
+    min-height: 150px;
+    text-align: left;
+    padding: 17px;
+    
+}
+
+header h1 {
+    font-family: var(--fonte-storyboo);
+    color: white;
+    font-size: 5em;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-size: normal;
+    
+}
+
+header img {
+    display: block;
+    width: 200px;
+    margin-left: 100px;
+    max-width: 800px;
+    
+    
+}
+
+
+nav {
+    background-color: #999999;
+    text-align: right;
+    
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 23px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.473);
+    
+}
+nav a:hover {
+    background-color: ghostwhite;
+    color: #4D0600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 400px;
+}
+
+main h1 {
+    
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.363);
+    padding: 8px;
+    margin-top: -350px;
+}
+
+main p {
+    margin-top: 50px;
+    text-indent: 20px;
+}
+
+main a {
+    background-color: #4D4D4D;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.363);
+    font-weight: bold;
+    transition-duration: .3s;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 56%);
+}
+
+main a:hover {
+    color: white;
+    background-color: #4d0600c0;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 56%);
+    
+}
+
+footer {
+    background-color: #4D4D4D;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    padding-bottom: 30%;
+    position: relative;
+    text-shadow: 1px 1px 10px black;
+    box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 56%);
+}
+
+footer h2 {
+    color: #ffcb70;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+    font-family: var(--fonte-storyboo);
+}
+
+footer img {
+    width: 400px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 56%);
+
+}
+footer p 
+{
+    margin-top: 100px;
+}
+
